@@ -1,0 +1,33 @@
++------------------+
+|   Departments    |
++------------------+
+| department_id PK |
+| department_name  |
++------------------+
+         |
+         | 1
+         |
+         | M
++------------------+
+|      Users       |
++------------------+
+| user_id PK       |
+| username         |
+| email            |
+| department_id FK |
+| role             |
++------------------+
+         |
+         | 1
+         |
+         | M
++------------------+
+|    Login_Logs    |
++------------------+
+| login_id PK      |
+| user_id FK       |
+| login_time       |
+| logout_time      |
+| login_status     |
+| ip_address       |
++------------------+
